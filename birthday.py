@@ -9,7 +9,8 @@ for i in tq(range(100)):
 a = str(input('enter birthday:(m-d h:min):: '))
 hour = str(dt.now().strftime('%m-%d %H:%M'))
 while hour != a:
-    sp(0.1)    hour = str(dt.now().strftime('%m-%d %H:%M'))
+    sp(0.1)    
+    hour = str(dt.now().strftime('%m-%d %H:%M'))
 print (f'Happy birthday {name}')
 f = Figlet(font = 'slant')
 print (f.renderText('HAPPY BIRTHDAY'))
